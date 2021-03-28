@@ -11,29 +11,6 @@ Laravel Lumen is a stunningly fast PHP micro-framework for building web applicat
 
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
-## Env
-
-```APP_ENV=local
-APP_KEY=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
-APP_DEBUG=true
-APP_URL=http://localhost
-APP_TIMEZONE=UTC
-
-LOG_CHANNEL=stack
-LOG_SLACK_WEBHOOK_URL=
-
-DB_CONNECTION=mysql
-DB_HOST=localhost
-DB_PORT=3306
-DB_DATABASE=api_flutter
-DB_USERNAME=root
-DB_PREFIX=lh_
-DB_STRICT_MODE=false
-
-CACHE_DRIVER=file
-QUEUE_CONNECTION=sync
-```
-
 ## Contributing
 
 Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
