@@ -13,8 +13,7 @@ Documentation for the framework can be found on the [Lumen website](https://lume
 
 ## Env
 
-```APP_NAME=Lumen
-APP_ENV=local
+```APP_ENV=local
 APP_KEY=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 APP_DEBUG=true
 APP_URL=http://localhost
@@ -24,29 +23,12 @@ LOG_CHANNEL=stack
 LOG_SLACK_WEBHOOK_URL=
 
 DB_CONNECTION=mysql
-DB_HOST=172.105.112.46
+DB_HOST=localhost
 DB_PORT=3306
-DB_DATABASE=admin_wowo
-DB_USERNAME=admin_wowo
-DB_PASSWORD=Fv2^ue25
+DB_DATABASE=api_flutter
+DB_USERNAME=root
 DB_PREFIX=lh_
-
-JWT_SECRET=kp*.IJ1o1ww-v@?+w>2yW(x)$[(`HS4[-0E]z*-M>.?E|6{}GX%Hf|e2>`An0/3`
-JWT_SECRET_REFRESH=e~8+i<hN=L-gsnS)BA~Y&V)QQ9A[kil(Hc&#emY&]D<Lter/G5Y-tj3jtrOTrD25
-
-MAIL_DRIVER=smtp
-MAIL_HOST=172.105.112.46
-MAIL_PORT=587
-MAIL_USERNAME=admin
-MAIL_PASSWORD=minhtri113
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=hello@greenapp.vn
-MAIL_FROM_NAME="Example app"
-
-GOOGLE_CLIENT_ID=507203876083-nvi3c972cv48jglpa1fjr2b1nu5b9urj.apps.googleusercontent.com
-
-FACEBOOK_APP_ID=761787284761448
-FACEBOOK_SERECT_KEY=6fb6adf84a0d54a1bb70310f1fb36c89
+DB_STRICT_MODE=false
 
 CACHE_DRIVER=file
 QUEUE_CONNECTION=sync
