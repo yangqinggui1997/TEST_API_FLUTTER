@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "019f16f8-01a6-4776-8550-2514090d22da",
+		"name": "API_FLUTTER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Contact",
+			"item": [
+				{
+					"name": "getContact",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/contact/?id=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"contact",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "adaaa",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "fafaf@fsf.vn",
+									"type": "text"
+								},
+								{
+									"key": "birth_day",
+									"value": "2020-10-10",
+									"type": "text"
+								},
+								{
+									"key": "sex",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": "3432424424",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "fa",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/contact/create",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"contact",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "13",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "adaaa453543",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "fafaf@fsf.vn",
+									"type": "text"
+								},
+								{
+									"key": "birth_day",
+									"value": "2020-11-10",
+									"type": "text"
+								},
+								{
+									"key": "sex",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": "3432424424",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "fa",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/contact/update",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"contact",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "14",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/contact/delete",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"contact",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
